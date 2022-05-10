@@ -14,6 +14,7 @@
 */
 
 char *_memset(char *s, char b, unsigned int n)
+
 {
 	unsigned int i = 0;
 
@@ -108,7 +109,7 @@ void multiply(char *s1, char *s2)
  * main - Entry point
  *
  * Description: a program that multiplies
- *            two positive numbers
+ * two positive numbers
  *
  * @argc: number of arguments
  * @argv: arguments array
@@ -133,5 +134,3 @@ int main(int argc, char *argv[])
 		multiply(n1, n2);
 	return (0);
 }
-
-
